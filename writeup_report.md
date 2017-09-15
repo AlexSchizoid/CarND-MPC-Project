@@ -5,8 +5,8 @@ The model used in this project is called the Kinematic Model. It can be describe
 * vehicle x,y coordinates
 * psi - orientaiton angle
 * velocity
-* cross track error
-* psi error
+* cross track error - cte
+* psi error - epsi
 
 The outputs of the model are the vehicle actuators: steering angle of the car(delta) and acceleration. The model uses the information vector from the previous timestamp  and the model equations to predict the state of the car for next few timestamps. This calculation is repeated after every new timestamp. The equtaions used are the following:
 
